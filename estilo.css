@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat&family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: papayawhip;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content{
+    display: flex;
+    background-color: #fff;
+    width: 650px;
+    height: 500px;
+    border-radius: 10px;
+}
+    
+.content img {
+    width: 325px;
+    height: 500px;
+    border-radius: 10px 0 0 10px;
+}
+
+.text-p {
+    padding-right: 35px;
+    padding-left: 40px;
+}
+
+.little-p{
+    padding-top: 30px;
+    font-family: "Roboto";
+    font-size: 0.8rem;
+    color: hsl(228, 12%, 48%);
+}
+
+.text-p h1 {
+    padding-top: 20px;
+    font-family: 'Fraunces';
+    font-size: 2rem;
+}
+
+.text {
+    padding-top: 30px;
+    line-height: 1.7rem;
+    font-size: 1.0rem;
+    font-family: "Roboto";
+    color: hsl(228, 12%, 48%);
+}
+
+.price{
+    display: flex;
+    align-items: center;
+}
+
+.price h1 {
+    color: hsl(158, 36%, 37%);
+}
+
+.price-p {
+   padding-top: 20px;
+   padding-left: 15px;
+   text-decoration: line-through;
+   font-family: "Roboto";
+   color: hsl(228, 12%, 48%);
+   font-size: 0.9rem;
+}
+
+.button{
+    display: flex;
+    padding-top: 40px;
+}
+
+.btn {
+    width: 250px;
+    padding: 16px;
+    background-color: hsl(158, 36%, 37%);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.btn i {
+    padding: 0 9px;
+}
+
+.btn:hover{
+    background-color: hsl(158, 19%, 23%);
+}
